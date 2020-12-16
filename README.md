@@ -5,7 +5,7 @@ Here, I am uploading the code of programming questions which I am practising in 
 You will be given a list of tweets
 Your program should find the user who has tweeted the most
 
-Input format:
+<ins>Input format:</ins>
 Read the input from console.
 First line of input should be number of test cases
 Remaining lines of input should contain each test case input. 
@@ -14,7 +14,7 @@ For each test case input:
 First line should contain number of tweets.
 Followed by N lines, each containing user name and tweet id separated by a space.
 
-Output format:
+<ins>Output format:</ins>
 Find the user with max number of tweets. Print user name and total number of tweets.
 
 Note:
