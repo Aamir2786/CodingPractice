@@ -1,5 +1,41 @@
 # CodingPractice
 
+### DateToEpochTimestamp
+
+Convert the human readable date to epoch timestamp/time as on the start of the day.
+
+Example.
+If the INPUT date is 21-01-2020, print the epoch time at the start of the day i.e 12:00 AM.
+<br />
+Input Description:<br />
+The input date will be in any of the following format.<br />
+1) dd/mm/yyyy<br />
+2) mm/dd/yyyy<br />
+3) dd-mm-yyyy<br />
+4) mm-dd-yyyy<br />
+5) dd.mm.yyyy<br />
+6) mm.dd.yyyy<br />
+7) ddmmyyyy<br />
+8) mmddyyyy<br />
+Output Description:<br />
+For all the types of above input date, the output should be an Epoch timestamp/time.<br />
+Exceptions:<br />
+Any input date other than the given formats must be handled and a message "Unable to convert the provided date" must be printed.<br />
+
+More Examples:<br />
+Example 1<br />
+Input: 19-01-2020<br />
+Output: 1579392000<br />
+Example 2<br />
+Input: 31122012<br />
+Output: 1356912000<br />
+Example 3<br />
+Input: 251220202<br />
+Output: Unable to convert the provided date<br />
+Example 4<br />
+Input: 17:04:2020<br />
+Output: Unable to convert the provided date<br />
+
 ### WhoTweetedTheMost
 You will be given a list of tweets
 Your program should find the user who has tweeted the most
